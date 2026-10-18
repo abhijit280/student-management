@@ -117,6 +117,7 @@ public class StudentsRepository {
 			}
 		} catch (Exception e) {
 			System.out.println("Connection failed ...");
+			System.out.println("please reconnect the connection");
 			e.printStackTrace();
 		}
 		
