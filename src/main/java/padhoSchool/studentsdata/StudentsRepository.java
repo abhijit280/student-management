@@ -7,9 +7,9 @@ import java.sql.ResultSet;
 
 public class StudentsRepository {
 
-	String url = "jdbc:mysql://localhost:3307/student_db";
+	String url = "jdbc:mysql://__________/student_db";
 	String userName = "root";
-	String pass = "Abhijit@7992";
+	String pass = "__________";
 	public void addStudent(String name,String email, int age) {
 		String query = "insert into students (name, email, age) values (?,?,?)";
 		try (Connection connection = DriverManager.getConnection(url, userName, pass);
